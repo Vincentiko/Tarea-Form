@@ -11,7 +11,7 @@ import { GifService } from '../../service/gifs.service';
       (keyup.enter)="searchTag()"
       #txtTagInput
     >
-
+    <hr>
   `,
   styleUrls: ['./search-box.component.scss'],
 })
