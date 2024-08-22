@@ -11,7 +11,7 @@ import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, GifsModule, SharedModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, GifsModule, SharedModule,],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent],
 })
